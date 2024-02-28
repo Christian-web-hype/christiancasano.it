@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "christian.sito.public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
