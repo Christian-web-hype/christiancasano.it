@@ -152,44 +152,6 @@ body{
     opacity: 1;
 }
 
-.label{
-    font-family: var(--fm);
-    letter-spacing: 2px;
-    color: var(--main);
-}
-
-.input{
-    background-color: transparent;
-    border: none;
-    border-bottom: solid 2px var(--main);
-    width: 120px;
-    color: var(--main);
-}
-
-.input-email{
-    background-color: transparent;
-    border: none;
-    border-bottom: solid 2px var(--main);
-    width: 250px;
-    color: var(--main);
-}
-
-.input-email:focus,.input:focus{
-    border-bottom: solid 2px var(--main);;
-    box-shadow: none!important;
-    outline: 0;
-}
-
-.submit-btn{
-    background: transparent;
-    font-family: var(--fm);
-    border: solid 2px var(--acc);
-    border-radius: 50%;
-    color: var(--acc);
-    font-size: 20px;
-    padding: 2px 6px;
-}
-
 .social-canvas{
     opacity: 0;
     transition: 0.5s;
@@ -1529,6 +1491,7 @@ ul{
     color: var(--main);
     outline: none;
     font-family: var(--fm);
+    width: 100%;
 }
 
 .text-contact{
@@ -1539,6 +1502,7 @@ ul{
     color: var(--main);
     outline: none;
     font-family: var(--fm);
+    width: 100%;
 }
 
 .btn-form{
@@ -1843,6 +1807,11 @@ ul{
 /* mobile */
 
 @media screen and (max-width: 600px){
+    /* form contact */
+    .contact-form{
+        width: 90%;
+    }
+    /* nav */
     .menu-canvas{
         margin: 0!important;
         width: 100%!important;
@@ -1864,14 +1833,12 @@ ul{
         align-items: center;
     }
     .mockup-display{
-        width: 260px;
+        width: 250px;
         height: 220px;
         margin-bottom: 30px!important;
     }
     .mockup{
-        margin: 0!important;
-        margin-bottom: 30px!important;
-        width: 250px;
+        width: 240px;
         height: 130px;
     }
 
